@@ -2,6 +2,7 @@ public class AnalistaCalidad {
     private Manejador inicial;
 
     public AnalistaCalidad() {
+
         inicial = new ManejadorLote();
         Manejador peso = new ManejadorPeso();
         Manejador envase = new ManejadorEnvase();
