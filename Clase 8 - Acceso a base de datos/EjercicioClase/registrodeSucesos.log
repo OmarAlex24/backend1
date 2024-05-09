@@ -2,3 +2,11 @@
 [2024-05-09 17:40:34] [ INFO ] [Cliente:31] Se insertaron correctamente los animales en la tabla ANIMALES
 [2024-05-09 17:40:34] [ WARN ] [Cliente:44] Se elimino el id 2
 [2024-05-09 17:40:34] [ WARN ] [Cliente:59] Se cerro correctamente la conexion con la bd
+[2024-05-09 17:45:48] [ INFO ] [Cliente:22] Se creo correctamente la tabla en la bd
+[2024-05-09 17:45:48] [ INFO ] [Cliente:31] Se insertaron correctamente los animales en la tabla ANIMALES
+[2024-05-09 17:45:48] [ WARN ] [Cliente:44] Se elimino el id 2
+[2024-05-09 17:45:48] [ WARN ] [Cliente:59] Se cerro correctamente la conexion con la bd
+[2024-05-09 17:47:26] [ INFO ] [Cliente:22] Se creo correctamente la tabla en la bd
+[2024-05-09 17:47:26] [ INFO ] [Cliente:31] Se insertaron correctamente los animales en la tabla ANIMALES
+[2024-05-09 17:47:26] [ WARN ] [Cliente:44] Se elimino el id 2
+[2024-05-09 17:47:26] [ WARN ] [Cliente:59] Se cerro correctamente la conexion con la bd

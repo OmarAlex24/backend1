@@ -2,3 +2,7 @@
 2024-05-09 17:37:31 INFO  Cliente:31 - Se insertaron correctamente los animales en la tabla ANIMALES
 2024-05-09 17:37:31 WARN  Cliente:47 - Se elimino el id 2
 2024-05-09 17:37:31 WARN  Cliente:63 - Se cerro correctamente la conexion con la bd
+2024-05-09 17:39:19 INFO  Cliente:22 - Se creo correctamente la tabla en la bd
+2024-05-09 17:39:19 INFO  Cliente:31 - Se insertaron correctamente los animales en la tabla ANIMALES
+2024-05-09 17:39:19 WARN  Cliente:44 - Se elimino el id 2
+2024-05-09 17:39:19 WARN  Cliente:60 - Se cerro correctamente la conexion con la bd

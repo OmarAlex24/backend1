@@ -1,10 +1,11 @@
+package presencial;
+
+import org.apache.log4j.Logger;
+
 import java.sql.*;
-import java.util.logging.Logger;
 
 public class Cliente {
     private static final Logger logger = Logger.getLogger(Cliente.class);
-
-    private static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(Cliente.class);
 
     public static void main(String[] args) {
         Connection connection = null;
@@ -16,7 +17,7 @@ public class Cliente {
             Statement statement = connection.createStatement();
 
             // Crear la tabla, borrarla si ya existe
-            statement.execute("DROP TABLE IF EXISTS ANIMALES; CREATE TABLE ANIMALES(ID INT PRIMARY KEY ,NOMBRE VARCHAR(20) NOT NULL,TIPO VARCHAR(20) NOT NULL)");
+            statement.execute("DROP TABLE IF EXISTS ANIMALES; CREATE TABLE ANIMALES (ID INT PRIMARY KEY, NOMBRE VARCHAR(20) NOT NULL, TIPO VARCHAR(20) NOT NULL)");
 
             logger.info("Se creo correctamente la tabla en la bd");
 
@@ -39,19 +40,15 @@ public class Cliente {
             }
             System.out.println("**************************************");
 
-            Statement statement1 = connection.createStatement();
+            statement.execute("DELETE FROM ANIMALES WHERE ID=2");
+            logger.warn("Se elimino el id 2");
 
-
-            statement1.execute("DELETE FROM ANIMALES WHERE ID=2");
-            logger.warning("Se elimino el id 2");
-
-
-            ResultSet rs1 = statement1.executeQuery("SELECT * FROM ANIMALES");
+            ResultSet rs1 = statement.executeQuery("SELECT * FROM ANIMALES");
 
             while (rs1.next()){
-                System.out.println("ID: "+rs.getInt(1)+
-                        "\nNombre: "+rs.getString(2)+
-                        "\nTipo: "+rs.getString(3)+"\n");
+                System.out.println("ID: "+rs1.getInt(1)+
+                        "\nNombre: "+rs1.getString(2)+
+                        "\nTipo: "+rs1.getString(3)+"\n");
             }
 
         } catch (Exception e) {
@@ -59,7 +56,7 @@ public class Cliente {
         } finally {
             try {
                 connection.close();
-                logger.warning("Se cerro correctamente la conexion con la bd");
+                logger.warn("Se cerro correctamente la conexion con la bd");
             }catch (SQLException e){
                 e.getMessage();
             }
