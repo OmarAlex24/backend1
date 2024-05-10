@@ -35,10 +35,10 @@ public class Cliente {
 
             while (rs.next()){
                 System.out.println("ID: "+rs.getInt(1)+
-                                    "\nNombre: "+rs.getString(2)+
-                                    "\nTipo: "+rs.getString(3)+"\n");
+                                    " Nombre: "+rs.getString(2)+
+                                    " Tipo: "+rs.getString(3));
             }
-            System.out.println("**************************************");
+            System.out.println("------------------------------------------------");
 
             statement.execute("DELETE FROM ANIMALES WHERE ID=2");
             logger.warn("Se elimino el id 2");
@@ -47,8 +47,8 @@ public class Cliente {
 
             while (rs1.next()){
                 System.out.println("ID: "+rs1.getInt(1)+
-                        "\nNombre: "+rs1.getString(2)+
-                        "\nTipo: "+rs1.getString(3)+"\n");
+                        " Nombre: "+rs1.getString(2)+
+                        " Tipo: "+rs1.getString(3));
             }
 
         } catch (Exception e) {
