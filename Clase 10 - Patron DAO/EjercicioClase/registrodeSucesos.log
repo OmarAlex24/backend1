@@ -40,3 +40,9 @@ INSERT INTO MEDICAMENTOS VALUES(?,?,?,?,?,?) [42104-224]
 [2024-05-14 20:09:28] [ INFO ] [MedicamentoDAOH2:54] Consulta exitosa
 [2024-05-14 20:09:28] [ INFO ] [Cliente:20] Medicamento encontrado: Paracetamol
 [2024-05-14 20:09:28] [ WARN ] [Cliente:28] Medicamento no encontrado
+[2024-05-16 15:52:00] [ INFO ] [BD:23] Tabla creada con exito
+[2024-05-16 15:52:00] [ INFO ] [MedicamentoDAOH2:36] Objeto guardado en la tabla
+[2024-05-16 15:52:00] [ INFO ] [MedicamentoDAOH2:56] Consulta exitosa
+[2024-05-16 15:52:00] [ INFO ] [MedicamentoDAOH2:56] Consulta exitosa
+[2024-05-16 15:52:00] [ INFO ] [Cliente:20] Medicamento encontrado: Paracetamol
+[2024-05-16 15:52:00] [ WARN ] [Cliente:28] Medicamento no encontrado

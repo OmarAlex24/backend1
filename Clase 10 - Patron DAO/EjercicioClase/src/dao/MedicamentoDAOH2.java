@@ -48,16 +48,15 @@ public class MedicamentoDAOH2 implements iDao<Medicamento> {
 
         try {
             connection = BD.getConnection();
-            PreparedStatement psInsert = connection.prepareStatement(SQL_CONSULT);
-            psInsert.setInt(1, id);
-            psInsert.execute();
+            PreparedStatement psConsult = connection.prepareStatement(SQL_CONSULT);
+            psConsult.setInt(1, id);
+//            psConsult.execute();
+
+            ResultSet rs = psConsult.executeQuery();
             logger.info("Consulta exitosa");
 
-            ResultSet rs = psInsert.executeQuery();
-
             if(rs.next()){
-                Medicamento medicamento = new Medicamento(rs.getInt(1),rs.getInt(2),rs.getString(3),rs.getString(4),rs.getInt(5),rs.getDouble(6));
-                return medicamento;
+                return new Medicamento(rs.getInt(1),rs.getInt(2),rs.getString(3),rs.getString(4),rs.getInt(5),rs.getDouble(6));
             }
 
         }catch (Exception e){
