@@ -41,16 +41,10 @@ public class TurnoDAOLista implements iDao<Turno>{
     @Override
     public void eliminar(Integer id) {
         logger.info("Iniciando las operaciones de eliminacion de turno del id: "+id);
-        Turno turnoBuscado = null;
-        for (Turno turno : turnos) {
-            if(turno.getId().equals(id)){
-                turnoBuscado = turno;
-            }
-        }
+        Turno turnoBuscado = buscarPorID(id);
 
         if(turnoBuscado != null){
             turnos.remove(turnoBuscado);
-            logger.info("Turno eliminado con exito");
         }
     }
 

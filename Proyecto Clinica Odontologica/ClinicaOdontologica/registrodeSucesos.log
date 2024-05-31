@@ -984,3 +984,41 @@ DELETE FROM ODONTOLOGOS WHERE ID=? [90002-224]
 [2024-05-30 17:40:23] [ INFO ] [OdontologoDAOH2:71] Usuario encontrado
 [2024-05-30 17:40:23] [ INFO ] [TurnoDAOLista:26] Turno guardado con exito
 [2024-05-30 17:40:25] [ INFO ] [TurnoDAOLista:79] Iniciando las operaciones de mostrar todos los turnos
+[2024-05-30 18:00:05] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:00:05] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:00:06] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:00:06] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:00:48] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:00:48] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:00:48] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:18] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:01:18] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:18] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:36] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:01:36] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:36] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:38] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:01:38] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:38] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:44] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:01:44] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:01:45] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:45] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:01:50] [ INFO ] [PacienteDAOH2:64] Buscando el paciente...
+[2024-05-30 18:01:50] [ INFO ] [DomicilioDAOH2:59] Buscando el domicilio...
+[2024-05-30 18:01:50] [ INFO ] [DomicilioDAOH2:78] Domicilio encontrado!
+[2024-05-30 18:01:50] [ INFO ] [OdontologoDAOH2:58] Conexion a bd exitosa
+[2024-05-30 18:01:50] [ INFO ] [OdontologoDAOH2:71] Usuario encontrado
+[2024-05-30 18:01:50] [ INFO ] [TurnoDAOLista:18] Iniciando las operaciones de guardado de turno
+[2024-05-30 18:01:50] [ INFO ] [PacienteDAOH2:64] Buscando el paciente...
+[2024-05-30 18:01:50] [ INFO ] [DomicilioDAOH2:59] Buscando el domicilio...
+[2024-05-30 18:01:50] [ INFO ] [DomicilioDAOH2:78] Domicilio encontrado!
+[2024-05-30 18:01:50] [ INFO ] [OdontologoDAOH2:58] Conexion a bd exitosa
+[2024-05-30 18:01:50] [ INFO ] [OdontologoDAOH2:71] Usuario encontrado
+[2024-05-30 18:01:50] [ INFO ] [TurnoDAOLista:26] Turno guardado con exito
+[2024-05-30 18:02:16] [ INFO ] [TurnoDAOLista:43] Iniciando las operaciones de eliminacion de turno del id: 1
+[2024-05-30 18:02:20] [ INFO ] [PacienteDAOH2:29] Guardando paciente Omar
+[2024-05-30 18:02:20] [ INFO ] [DomicilioDAOH2:29] Guardando domicilio con id null
+[2024-05-30 18:02:20] [ INFO ] [DomicilioDAOH2:48] Domicilio guardado con exito
+[2024-05-30 18:02:20] [ INFO ] [PacienteDAOH2:54] Paciente guardado
+[2024-05-30 18:02:24] [ INFO ] [TurnoDAOLista:73] Iniciando las operaciones de mostrar todos los turnos
