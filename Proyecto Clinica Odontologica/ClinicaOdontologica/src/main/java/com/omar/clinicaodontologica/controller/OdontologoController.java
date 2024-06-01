@@ -2,6 +2,7 @@ package com.omar.clinicaodontologica.controller;
 
 import com.omar.clinicaodontologica.model.Odontologo;
 import com.omar.clinicaodontologica.service.OdontologoService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,8 +23,8 @@ public class OdontologoController {
     }
 
     @GetMapping
-    public List<Odontologo> mostrarTodosLosOdontologos(){
-        return odontologoService.listarOdontologosBD();
+    public ResponseEntity<List<Odontologo>> mostrarTodosLosOdontologos(){
+        return ResponseEntity.ok(odontologoService.listarOdontologosBD());
     }
 
     @GetMapping("/{id}")

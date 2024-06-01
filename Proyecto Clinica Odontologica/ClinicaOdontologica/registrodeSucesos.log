@@ -1022,3 +1022,199 @@ DELETE FROM ODONTOLOGOS WHERE ID=? [90002-224]
 [2024-05-30 18:02:20] [ INFO ] [DomicilioDAOH2:48] Domicilio guardado con exito
 [2024-05-30 18:02:20] [ INFO ] [PacienteDAOH2:54] Paciente guardado
 [2024-05-30 18:02:24] [ INFO ] [TurnoDAOLista:73] Iniciando las operaciones de mostrar todos los turnos
+[2024-05-30 18:40:26] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:40:26] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:40:26] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:40:26] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:41:12] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:41:13] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:41:13] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:41:20] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:41:20] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:41:20] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:41:22] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:41:22] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:41:23] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:41:23] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:59:17] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:59:17] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 18:59:17] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:59:17] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 18:59:21] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 18:59:24] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:00:47] [ INFO ] [PacienteDAOH2:29] Guardando paciente Omar
+[2024-05-30 19:00:47] [ INFO ] [DomicilioDAOH2:29] Guardando domicilio con id null
+[2024-05-30 19:00:47] [ INFO ] [DomicilioDAOH2:48] Domicilio guardado con exito
+[2024-05-30 19:00:47] [ INFO ] [PacienteDAOH2:54] Paciente guardado
+[2024-05-30 19:00:52] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:01:12] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:02:23] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:03:49] [ WARN ] [OdontologoDAOH2:47] NULL not allowed for column "MATRICULA"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23502-224]
+[2024-05-30 19:04:49] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 19:04:56] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:23:27] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 19:23:27] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 19:23:28] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 19:23:28] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 19:23:35] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:23:37] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:23:50] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:23:51] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 19:24:04] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 19:24:04] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 19:24:05] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 19:24:05] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:17:52] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:18:11] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:23:48] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:23:48] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:23:48] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:23:48] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:24:23] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:24:23] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:24:23] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:24:23] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:26:23] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:26:24] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:26:24] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:26:24] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:27:09] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:27:09] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:27:10] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:27:10] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:27:39] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:27:39] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:27:39] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:27:39] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:28:38] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:28:38] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:28:38] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:28:38] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:28:58] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:28:58] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:28:59] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:28:59] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:34:57] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:34:57] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:34:58] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:34:58] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:35:48] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:35:48] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:35:49] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:35:49] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:38:59] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:38:59] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:39:00] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:39:00] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:39:06] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:39:14] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:39:37] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:39:40] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:39:40] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:39:41] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:39:41] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:39:45] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:39:48] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:40:34] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:40:34] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:40:34] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:40:34] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:40:39] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:40:41] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:40:42] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:41:11] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:41:11] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:41:12] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:41:12] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:41:17] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:41:39] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:41:39] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:41:39] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:41:39] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:41:43] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:42:04] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:42:04] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:42:05] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:42:05] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:42:21] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:42:21] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:42:22] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:42:22] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:42:32] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:42:41] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:42:47] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:44:48] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:44:51] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:44:51] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:44:51] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:44:51] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:44:54] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:44:56] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:45:51] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:45:51] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:45:52] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:45:52] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:45:56] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:47:04] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:47:04] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:47:05] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:47:05] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:47:08] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:47:23] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:47:23] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:47:24] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:47:24] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:47:29] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:48:00] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:48:00] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:48:00] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:48:00] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:48:01] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:48:03] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:51:54] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:51:54] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:51:54] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:51:54] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:51:58] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:52:06] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:52:07] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:53:07] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:53:55] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:53:55] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:53:56] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:53:56] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:53:59] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:54:43] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:54:43] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:54:44] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:54:44] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:54:49] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:54:50] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:55:31] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:55:32] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:55:32] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:55:32] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:55:38] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:55:47] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:56:00] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 20:56:00] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:56:22] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:57:18] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:57:18] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:57:19] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:57:19] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:57:20] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:57:31] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:58:51] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:58:51] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:58:52] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:58:52] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:58:56] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 20:59:49] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:59:49] [ INFO ] [BD:38] Tablas creada con exito!
+[2024-05-30 20:59:50] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 20:59:50] [ INFO ] [OdontologoDAOList:15] Lista creada con exito!
+[2024-05-30 21:00:37] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
+[2024-05-30 21:00:52] [ INFO ] [OdontologoDAOH2:44] Se inserto correctamente el odontologo en la BD
+[2024-05-30 21:00:52] [ INFO ] [OdontologoDAOH2:130] Devolviendo lista de odontologos
