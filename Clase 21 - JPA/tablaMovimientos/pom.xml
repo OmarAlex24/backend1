@@ -9,17 +9,17 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.omar</groupId>
-    <artifactId>ClinicaOdontologica</artifactId>
+    <artifactId>tablaMovimientos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ClinicaOdontologica</name>
-    <description>ClinicaOdontologica</description>
+    <name>tablaMovimientos</name>
+    <description>tablaMovimientos</description>
     <properties>
         <java.version>22</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -47,13 +47,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -70,7 +63,6 @@
                     </excludes>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
